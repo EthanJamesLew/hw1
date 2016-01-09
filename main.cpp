@@ -3,7 +3,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+<<<<<<< HEAD
 	//Initialize class that will initialize all variables
+=======
+	int test = 0;
+>>>>>>> 008acbad9f795107972f3087f1424a7d1f3a6eb7
 	Printdata appl = Printdata();
 
 	//set precision for stream
@@ -17,6 +21,9 @@ int main(int argc, char *argv[])
 		cout << "Long double address: " << &(appl.getLD()) << endl << "Long double value: " << appl.getLD() << endl << "Max value of long double: " << numeric_limits<long double>::max() << endl << "Size of long double: " << sizeof(appl.getLD()) << " bytes" << endl;
 	}
 	cout << "Ethan Lew 1-13-2016 HW1";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 008acbad9f795107972f3087f1424a7d1f3a6eb7
 	return 0;
 }
