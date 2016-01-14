@@ -1,0 +1,6 @@
+Name: Ethan Lew
+Group: <None>
+System: Linux
+Toolchain: vim/g++
+
+In order to improve the program, an exception handler was added to verify good input. Also, a modification was made to the string input so that multiple words could be used as input.

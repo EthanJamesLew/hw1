@@ -19,6 +19,8 @@ DIRTY HACK: Quick way to resolve overload is to input type sample of output*/
 		std::cin >> a;
 	}
 	std::cout << "\n";
+	std::cin.clear();
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	return a;
 }
 string exHandler(string a)
@@ -26,6 +28,7 @@ string exHandler(string a)
 {
 	std::cin.ignore();
 	std::getline(std::cin, a);
+	std::cout << "\n";
 	return a;
 }
 
